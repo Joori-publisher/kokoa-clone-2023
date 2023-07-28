@@ -9,16 +9,34 @@
     <div id="status-bar">
       <div class="status-bar__column">
         <span>No service</span>
-        <!--To do : WIFI Icon -->
+        <!-- WIFI Icon -->
+        <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>05:26</span>
       </div>
       <div class="status-bar__column">
         <span>130%</span>
-        <!-- To do : Battery Icon -->
-        <!-- To do : Lightning Icon -->
+        <!-- Battery Icon -->
+        <i class="fas fa-battery-quarter"></i>
+        <!-- Lightning Icon -->
+        <i class="fas fa-bolt"></i>
       </div>
     </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to kakao Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form id="login-form">
+      <input type="text" placeholder="Emaiil or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+
+    <!-- fontaweawesome https://fontawesome.com/v5/search?m=free -->
+    <script src="https://kit.fontawesome.com/6478f529f2.js"></script>
   </body>
 </html>
