@@ -33,7 +33,7 @@
   font-weight: 400;
 }
 .user-component__subtitle {
-  margin-top: 5px;
+  margin-top: 10px;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 17px;
+  font-size: 15px;
 }
