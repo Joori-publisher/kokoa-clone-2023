@@ -26,13 +26,3 @@
 .status-bar__column .fa-battery-quarter {
   margin: 0 5px;
 }
-.nav__notification {
-  background-color: tomato;
-  color: #fff;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  display: block;
-  position: absolute;
-  right: 0;
-}
