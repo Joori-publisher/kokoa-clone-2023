@@ -12,8 +12,8 @@
   color: rgba(0, 0, 0, 0.3);
   margin-left: 10px;
 }
+
 .friends-screen {
-  padding: 0 var(--horizontal-space);
 }
 
 .friends-screen__channel {
