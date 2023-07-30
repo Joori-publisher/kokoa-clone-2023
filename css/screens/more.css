@@ -1,0 +1,11 @@
+.more-screen .user-component {
+  margin-bottom: var(--horizontal-space);
+}
+.more-suggestions {
+  margin-top: 50px;
+  padding-top: 40px;
+  border-top: var(--main-border);
+}
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
