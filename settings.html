@@ -27,7 +27,9 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <i class="fas fa-angle-left fa-2x"></i>
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
       </div>
       <div class="alt-header__column">
         <h2 class="alt-header__title">Settings</h2>
@@ -40,16 +42,25 @@
     <main class="main-screen settings-screen">
       <ul class="settings-list">
         <li class="settings-setting">
-          <i class="fas fa-bullhorn"></i>
-          <span>Notices</span>
+          <div class="settings-setting__column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings-setting__column"></div>
         </li>
         <li class="settings-setting">
-          <i class="fas fa-flask"></i>
-          <span>Kokoa Lab</span>
+          <div class="settings-setting__column">
+            <i class="fas fa-flask"></i>
+            <span>Kokoa Lab</span>
+          </div>
+          <div class="settings-setting__column"></div>
         </li>
         <li class="settings-setting">
-          <i class="fas fa-info-circle"></i>
-          <span>Version</span>
+          <div class="settings-setting__column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings-setting__column">Latest Version</div>
         </li>
       </ul>
     </main>
@@ -62,7 +73,7 @@
           </a>
         </li>
         <li class="nav__btn">
-          <a href="chat.html" class="nav__link">
+          <a href="chats.html" class="nav__link">
             <span class="nav__notification badge">1</span>
             <!-- Chat -->
             <i class="far fa-comment fa-2x"></i>

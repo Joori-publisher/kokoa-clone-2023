@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More - Kokoa Talk</title>
+    <title>Chats - Kokoa Talk</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -25,68 +25,46 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">More</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span>
-          <a href="settings.html">
-            <!-- <span class="screen-header__dot dot"></span> -->
-            <i class="fas fa-cog fa-lg"></i> </a
-        ></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="main-screen more-screen">
+    <main class="main-screen chats-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/vernon.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Vernon</h4>
+              <h6 class="user-component__subtitle">안 될 이유가 있어?</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">02:18</span>
+            <span class="badge">1</span>
+          </div>
+        </div>
+      </a>
       <div class="user-component">
         <div class="user-component__column">
-          <img src="img/seungkwan.jpg" class="user-component__avatar" />
+          <img
+            src="img/jeonghan.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
           <div class="user-component__text">
-            <h4 class="user-component__title">Seungkwan</h4>
-            <h6 class="user-component__subtitle">
-              010-1998-0116
-              <i class="fas fa-exclamation-circle"></i>
-            </h6>
+            <h4 class="user-component__title">Jeonghan</h4>
+            <h6 class="user-component__subtitle">밥이나먹자여</h6>
           </div>
         </div>
-        <div class="user-component__column">
-          <i class="far fa-comment-alt fa-2x"></i>
-        </div>
-      </div>
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="far fa-calendar"></i>
-          <span>Calendar</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="far fa-smile-beam"></i>
-          <span>Emoticons</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-paint-roller"></i>
-          <span>Themes</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-file-invoice-dollar"></i>
-          <span>Account</span>
-        </div>
-      </div>
-      <div class="more-suggestions">
-        <h4 class="more-suggestions__title">Suggestions</h4>
-        <div class="more-suggestions__icons">
-          <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-image">
-              <i class="fas fa-quote-right"></i>
-            </div>
-            <span class="more-suggestions__icon-text"> Kakao Story </span>
-          </div>
-          <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-image">
-              <i class="far fa-smile"></i>
-            </div>
-            <span class="more-suggestions__icon-text"> Kakao Friends </span>
-          </div>
-        </div>
+        <div class="user-component__column"></div>
       </div>
     </main>
     <nav class="nav">
@@ -101,7 +79,7 @@
           <a href="chats.html" class="nav__link">
             <span class="nav__notification badge">1</span>
             <!-- Chat -->
-            <i class="far fa-comment fa-2x"></i>
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
