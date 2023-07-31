@@ -39,4 +39,15 @@
   justify-content: center;
   align-items: center;
   font-weight: 132px;
+  animation: hideSplashScreen 0.4s 0.8s ease-in-out forwards;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
