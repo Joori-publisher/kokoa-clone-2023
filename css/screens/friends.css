@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 132px;
+  font-size: 132px;
   animation: hideSplashScreen 0.4s 0.8s ease-in-out forwards;
 }
 
