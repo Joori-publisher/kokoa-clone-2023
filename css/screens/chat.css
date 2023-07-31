@@ -107,8 +107,9 @@
 .reply input {
   width: 100%;
   border-radius: 25px;
-  padding: 12px;
+  padding: 10px;
   border: var(--main-border);
+  box-sizing: border-box;
 }
 .reply i {
   opacity: 0.5;
@@ -120,8 +121,8 @@
 }
 .reply__column:last-child button {
   position: absolute;
-  right: -3px;
-  top: 2px;
+  right: 3px;
+  top: 3px;
 }
 
 .reply__column button {
